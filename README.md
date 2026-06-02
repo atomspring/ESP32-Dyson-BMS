@@ -1,3 +1,26 @@
+# Dyson-BMS, ESP32 & You
+Get your shit-ass Dyson battery back online with an ESP32 you already have.
+
+## Things you'll need:
+1. Arduino IDE 1.8 or 2.0
+1. An ESP32 (I used an old ESP32 WROOM Dev Board)
+1. Java Runtime Environment 21 at minimum, I used openJDK 25
+1. A bench power supply
+1. A voltmeter you trust
+
+## Arduino Setup
+1. Make sure you have Espressif's ESP32 support installed in the Boards Manager
+1. ESP32s appear to be a lot happier running at 115200 baud by default
+
+## OS Setup
+### Debian/Linux
+1. Most linux systems are already compatible with the built-in CP2102 UART built into the ESP32; plugging your ESP32 in should show something at /dev/ttyUSB0 or something like that. Tinker with `lsusb` or something like that.
+2. 
+### Windows
+
+### MacOS
+
+## 
 # PIC16LF1847 Arduino programmer
  Simple implementation to flash PIC16LF1847 using arduino board
 
